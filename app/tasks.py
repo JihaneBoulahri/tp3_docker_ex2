@@ -1,9 +1,9 @@
-_tasks = []
+tasks = ['task1', 'task2']
 
 def add_task(task):
-    _tasks.append(task)
+    tasks.append(task)
 
 def get_tasks():
-    return _tasks
+    return tasks
 def delete_task(task):
     tasks.remove(task)
